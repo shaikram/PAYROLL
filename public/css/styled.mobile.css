@@ -201,7 +201,6 @@ html, body {
 .fabars{
   color: #d5dde3;
   text-shadow: 3px 3px 10px #000;
-
 }
 /* ====================SERVICES PAGE============================ */
 .services{
@@ -330,6 +329,9 @@ html, body {
   background-position: center;
   background-size: auto 100%;
   background-attachment: fixed;
+}
+.ftr_hotline{
+  justify-content: center;
 }
 .footer_img{
   width:100%;

@@ -3,7 +3,6 @@
 </center>
 @include('inc/bars')
 <div id="content">
-
       @include('inc/home')
       @include('inc/services')
       @include('inc/about')

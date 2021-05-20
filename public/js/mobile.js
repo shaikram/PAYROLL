@@ -2,7 +2,6 @@ function mobilebar(){
   var mob_menu = document.getElementById('mob_menu');
   $("#mob_menu").animate({marginLeft:"0%"},100);
 
-
 }
 function closemenu(){
   var mob_menu = document.getElementById('mob_menu');

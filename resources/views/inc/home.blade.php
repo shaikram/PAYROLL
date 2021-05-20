@@ -33,25 +33,25 @@
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-8 align-items-center navdiv hideonmobile">
                       <ul class="ul_nav">
-                        <a href="#">
+                        <a href="/">
                           <li>HOME</li>
                         </a>
-                        <a href="#">
+                        <a href="profile">
                           <li>PROFILE</li>
                         </a>
-                        <a href="#">
+                        <a href="services">
                           <li>SERVICES</li>
                         </a>
-                        <a href="#">
+                        <a href="equipment">
                           <li>EQUIPMENT</li>
                         </a>
-                        <a href="#">
+                        <a href="client">
                           <li>CLIENT</li>
                         </a>
-                        <a href="#">
+                        <a href="management">
                           <li>MANAGEMENT</li>
                         </a>
-                        <a href="#">
+                        <a href="gallery">
                           <li>GALLERY</li>
                         </a>
                       </ul>
@@ -89,7 +89,8 @@
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-12">
                       <div class="d-flex justify-content-center arrowdiv">
-                        <img src="images/arrowdown1.gif" class="arrowdown"/>
+                        <input type="hidden" id="s1" value="section1"></input>
+                        <img src="images/arrowdown1.gif" id="sec1" class="arrowdown"/>
                       </div>
 
                     </div>

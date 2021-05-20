@@ -16,3 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('profile', function () {
+    return view('profile');
+});
+Route::get('services', function () {
+    return view('services');
+});
+Route::get('equipment', function () {
+    return view('equipment');
+});
+Route::get('client', function () {
+    return view('client');
+});
+Route::get('management', function () {
+    return view('management');
+});
+Route::get('gallery', function () {
+    return view('gallery');
+});
