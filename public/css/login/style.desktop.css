@@ -1,0 +1,14 @@
+@media only screen and (min-width:1000px){
+
+  .loginForm{
+    width:600px;
+    height:auto;
+    padding: 5px;
+  }
+  .inputs{
+    width:400px;
+  }
+  .input-btn{
+    width:400px;
+  }
+}

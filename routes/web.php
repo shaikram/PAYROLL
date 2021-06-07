@@ -13,24 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('profile', function () {
-    return view('profile');
-});
-Route::get('services', function () {
-    return view('services');
-});
-Route::get('equipment', function () {
-    return view('equipment');
-});
-Route::get('client', function () {
-    return view('client');
-});
-Route::get('management', function () {
-    return view('management');
-});
-Route::get('gallery', function () {
-    return view('gallery');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
+Route::get('login', 'App\Http\Controllers\mainController@login');
+Route::get('logout', 'App\Http\Controllers\mainController@logout');
+Route::get('/', 'App\Http\Controllers\mainController@home');
+Route::get('profile', 'App\Http\Controllers\mainController@profile');
+Route::get('services', 'App\Http\Controllers\mainController@services');
+Route::get('equipment', 'App\Http\Controllers\mainController@equipment');
+Route::get('client', 'App\Http\Controllers\mainController@client');
+Route::get('management', 'App\Http\Controllers\mainController@management');
+Route::get('gallery', 'App\Http\Controllers\mainController@gallery');
+Route::post('checklogin', 'App\Http\Controllers\mainController@checkLogin');
+Route::get('admin', 'App\Http\Controllers\mainController@admin');
+
+// ======Dashboard Routes=============== //
+Route::get('admin/gallery', 'App\Http\Controllers\dashboardController@gallery');

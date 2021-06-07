@@ -34,7 +34,7 @@
                     <div class="col-sm-12 col-md-12 col-lg-8 align-items-center navdiv hideonmobile">
                       <ul class="ul_nav">
                         <a href="/">
-                          <li>HOME</li>
+                          <li class="navs1">HOME</li>
                         </a>
                         <a href="profile">
                           <li>PROFILE</li>

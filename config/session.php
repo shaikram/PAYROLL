@@ -142,7 +142,10 @@ return [
     |
     */
 
-    'path' => '/',
+    'path' => '/;samesite=none',
+    // 'path' => '/;SameSite=None; secure',
+    // 'path' => env('APP_ENV') === 'local' ? '/' : '/;SameSite=None',
+    // 'secure' => env('APP_ENV') === 'local' ? false : true,
 
     /*
     |--------------------------------------------------------------------------
@@ -168,7 +171,8 @@ return [
     |
     */
 
-    'secure' => env('SESSION_SECURE_COOKIE'),
+    'secure' => true,
+    // 'secure' => env('SESSION_SECURE_COOKIE'),
 
     /*
     |--------------------------------------------------------------------------

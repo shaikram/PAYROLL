@@ -1,0 +1,35 @@
+@media only screen and (min-width:768px){
+  .profile_d{
+    display: none;
+  }
+  .profile_m{
+    display: block;
+  }
+
+  /* ================DASHBOARD========================================== */
+  .tools_div{
+    margin-bottom:10px;
+    margin-left: 40px;
+    width:180px;
+    height:180px;
+    border-radius: 3px;
+  }
+  .dash_ul li{
+    float: left;
+  }
+  .dashimg{
+    width:80%;
+    height:auto;
+  }
+  /* =======================FOOTER======================================= */
+  .ftr_left{
+    justify-content: flex-start;
+
+  }
+  .footerdata{
+    text-align: left;
+  }
+  .prof_tble{
+    display: none;
+  }
+}
