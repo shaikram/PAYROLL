@@ -11,3 +11,5 @@
 <link rel="stylesheet" href="../css/dashboard/style.mobile.css" type="text/css">
 <link rel="stylesheet" href="../css/dashboard/style.ipad.css" type="text/css">
 <link rel="stylesheet" href="../css/dashboard/style.desktop.css" type="text/css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" crossorigin="anonymous"/>

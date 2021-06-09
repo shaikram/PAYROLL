@@ -1,7 +1,7 @@
 @if (session('email') !== NULL)
       @extends('layout.app')
       @section('title')
-      DASHBOARD | SHOWFORCE SECURITY AGENCY
+      GALLERY | SHOWFORCE SECURITY AGENCY
       @endsection
       @section('links')
         @include('dashboard/links')
@@ -17,10 +17,10 @@
       @endsection --}}
   @elseif (session('email') == NULL)
     <script type="text/javascript">
-        window.location = "login";
+        window.location = "../login";
     </script>
   @else
     <script type="text/javascript">
-        window.location = "login";
+        window.location = "../login";
     </script>
   @endif

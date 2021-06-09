@@ -21,6 +21,10 @@
     width:80%;
     height:auto;
   }
+  .dashboarddiv{
+    padding: 50px 0 50px 0;
+    border: 1px solid #929394;
+  }
   /* =======================FOOTER======================================= */
   .ftr_left{
     justify-content: flex-start;
@@ -31,5 +35,9 @@
   }
   .prof_tble{
     display: none;
+  }
+  /* =========================GALLERY==================================== */
+  .gfrmDiv{
+    border: 1px solid #bac1c1;
   }
 }

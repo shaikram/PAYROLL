@@ -28,6 +28,7 @@
   }
   .dashboarddiv{
     padding: 50px 0 50px 0;
+    border: 1px solid #929394;
   }
   /* ===============FOOTER PAGE========================================= */
   .footer{
@@ -50,4 +51,19 @@
   .centerdiv{
     width:1000px;
   }
+  /* =========================GALLERY============================== */
+  .gfdiv{
+    padding: 10px 50px 10px 50px;
+
+  }
+  .gfrmDiv{
+    height:auto;
+    width:800px;
+    align-self: center;
+    border: 1px solid #bac1c1;
+  }
+  .gfContainer{
+    padding-left: 15%;
+  }
+
 }

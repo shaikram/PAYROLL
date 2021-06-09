@@ -45,7 +45,7 @@
           <a class="dropdown-item text-light" href="#">Action</a>
           <a class="dropdown-item text-light" href="#">Another action</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item text-light" href="{{ url('logout') }}">Logout</a>
+          <a class="dropdown-item text-light" href="{{ url('admin/logout') }}">Logout</a>
         </div>
       </li>
     </ul>

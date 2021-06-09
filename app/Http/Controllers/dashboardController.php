@@ -21,4 +21,10 @@ class dashboardController extends Controller
       $data1 = User::where('email', $email)->get();
       return view('galleryForm', ['data1' => $data1]);
     }
+    public function logout(Request $request){
+      Auth::logout();
+      Session::flush();
+      $request->session()->forget('email');
+      return redirect('../../');
+    }
 }
