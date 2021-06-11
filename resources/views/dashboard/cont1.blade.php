@@ -65,10 +65,23 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="admin/add-member">
               <div class="tools_div">
                 <center>
-                  logo2
+                  <table width="70%" height="auto" class="dash_table">
+                    <tr>
+                      <td align="center">
+                        <img src="{{ asset('images/add.png') }}" class="dashimg">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <span>
+                          Add
+                        </span>
+                      </td>
+                    </tr>
+                  </table>
                 </center>
               </div>
             </a>

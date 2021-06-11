@@ -32,3 +32,5 @@ Route::get('admin', 'App\Http\Controllers\mainController@admin');
 Route::get('admin/gallery', 'App\Http\Controllers\dashboardController@gallery');
 Route::get('admin/logout', 'App\Http\Controllers\dashboardController@logout');
 Route::post('admin/upload-photo', 'App\Http\Controllers\galleryController@store');
+Route::get('admin/add-member', 'App\Http\Controllers\dashboardController@addMember');
+Route::post('admin/member-store', 'App\Http\Controllers\addMemberController@store');

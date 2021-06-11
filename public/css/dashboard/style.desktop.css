@@ -65,5 +65,9 @@
   .gfContainer{
     padding-left: 15%;
   }
+  /* ====================Add Member================================ */
+  .addM_form{
+    margin-left: -15%;
+  }
 
 }

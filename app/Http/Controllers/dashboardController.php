@@ -21,6 +21,12 @@ class dashboardController extends Controller
       $data1 = User::where('email', $email)->get();
       return view('galleryForm', ['data1' => $data1]);
     }
+    public function addMember(){
+      $email = Session::get('email');
+      $data = User::all();
+      $data1 = User::where('email', $email)->get();
+      return view('addMember', ['data1' => $data1]);
+    }
     public function logout(Request $request){
       Auth::logout();
       Session::flush();
