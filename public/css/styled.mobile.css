@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  background: #000;
+  font-family:"Roboto",sans-serif;
+}
+html, body {
+    height: 100%;
+}
+.container-fluid{
+  font-family:"Roboto",sans-serif;
+  padding: 0px;
+  margin: 0;
+  padding: 0;
+}
+.homepage, .services, .about, .client, .philosophy, .contact, .footer{
+  margin: 0;
+  padding:20px 0 50px 0;
+  width:100%;
+  height:auto;
+}
+.bardiv{
+  display: block;
+  position: fixed;
+  z-index: 100;
+
+}
+.srchdiv{
+  display: none;
+}
+#content{
+  display: none;
+}
+#web_preload{
+  width:100%;
+  height:auto;
+  margin-top: 25%;
+}
+.centerdiv{
+  height:auto;
+  width:100%;
+  padding: 1px;
+
+}
+/* =================MOBILE NAV======================= */
+.bars_left{
+  width:70%;
+  height:100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: #39495b;
+}
+.bars_right{
+  width:30%;
+  height:100%;
+  float:right;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  opacity:0.6;
+}
+.barsdiv{
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height: 100%; /* cross-browser */
+  z-index: 150;
+  position: fixed;
+  overflow: hidden;
+  margin-left: -100%;
+}
+.bars_left ul{
+  margin: 0;
+  padding: 0;
+}
+.bars_left ul a li{
+  list-style: none;
+  margin: 0;
+  width:100%;
+  height:auto;
+  border-bottom: 1px solid #4e5f73;
+  padding: 5%;
+}
+.bars_left ul a li:hover{
+  background: #ddcc5f;
+  cursor: pointer;
+  color: #fff;
+}
+.bars_left ul a{
+  text-decoration: none;
+  color:#a6a6a6;
+}
+.serchinp{
+  width:65%;
+  height:40px;
+  border:none;
+  background: #39495b;
+  color:#d5d9da;
+}
+.serchbtn{
+  width:25%;
+  height:40px;
+  border:none;
+  font-weight: bold;
+  color: #fff;
+  background: #007bff;
+}
+.mob_close{
+  width:100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background: pink;
+}
+.close_bar{
+  float: left;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/* ===========HOME PAGE============================ */
+.homepage{
+  background: url('../images/bgHome2.png') no-repeat center;
+  background-position: center;
+  background-size: auto 100%;
+  background-attachment: fixed;
+}
+.logodiv{
+
+}
+.navdiv{
+
+}
+.searchdiv{
+
+}
+.thirdrow{
+  background: #fff;
+  border-bottom: 1px solid #000;
+}
+.logoSFSA{
+  width:250px;
+  height:auto;
+}
+.ul_nav{
+  margin-top: 10%;
+}
+.ul_nav a li{
+  float: left;
+  list-style: none;
+  font-weight: bold;
+  padding: 10px;
+  color: #c7cfd5;
+  font-size: 13px;
+}
+.ul_nav a li:hover{
+  cursor: pointer;
+  color: #fff;
+}
+.ul_nav a{
+  text-decoration: none;
+}
+.hideonmobile{
+  display: none;
+}
+.slider-img{
+  width:300px;
+  height: auto;
+}
+.logoline{
+  width:100px;
+  height:5px;
+  background: #c3c9cb;
+}
+.linediv{
+  padding-top: 10px;
+}
+.slidediv{
+  padding-top: 50px;
+}
+.article-1{
+  text-align: center;
+  color: #d5dde3;
+  margin-top: 20px;
+}
+.homeTime{
+  color: #d5dde3;
+}
+.arrowdown{
+   width: 70px;
+   margin-top:20px;
+}
+.arrowdown:hover{
+  cursor: pointer;
+}
+.arrowdiv{
+  padding-top: 10px;
+}
+.fabars{
+  color: #d5dde3;
+  text-shadow: 3px 3px 10px #000;
+}
+/* ====================SERVICES PAGE============================ */
+.services{
+  background: #45a863;
+
+}
+.servdiv{
+
+}
+.servpic{
+
+}
+.sg_div{
+  background: #358f50;
+  z-index: 1;
+}
+.servh4{
+  font-weight: bold;
+  color:#ebe4df;
+  font-size: 27px
+}
+.servh6{
+  float:left;
+  font-size: 18px;
+  font-weight: bold;
+  color:#ebe4df;
+  padding: 10px 0 10px 0;
+}
+.servspan{
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color:#ebe4df;
+}
+
+.servul li a{
+  float: left;
+  font-size: 14px;
+  color:#ebe4df;
+}
+.servul li{
+  color:#ebe4df;
+}
+.servp{
+  float:left;
+  line-height: 19px;
+  text-align: left;
+  font-size: 15px;
+  color:#ebe4df;
+}
+.h4line{
+  width:70px;
+  height:2px;
+  background: #ebe4df;
+}
+.srvc_img{
+  width:100%;
+  height:auto;
+}
+/* ====================ABOUT PAGE================ */
+.about{
+  background: url('../images/about-bg.jpg') no-repeat center;
+  background-position: center;
+  background-size: auto 100%;
+  background-attachment: fixed;
+}
+.abspan{
+  float: left;
+  font-size: 16px;
+  text-align: left;
+  color:#ebe4df;
+}
+.about_img{
+  width:100%;
+  height:auto;
+}
+/* =================CLIENT PAGE======================== */
+.client{
+  background: #3583c5;
+}
+.cl_div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.cl_img{
+  width:100%;
+  height:auto;
+}
+
+/* =================PHILOPSOPHY PAGE================================= */
+.philosophy{
+  background: url('../images/pilosophy-bg.jpg') no-repeat center;
+  background-position: center;
+  background-size: auto 100%;
+  background-attachment: fixed;
+
+}
+/* ==================CONTACT PAGE============================== */
+.contact{
+  background: #fff;
+}
+.conth4{
+  font-weight: bold;
+  color:#586a7d;
+  font-size: 27px
+}
+.ch4line{
+  width:70px;
+  height:2px;
+  background: #586a7d;
+}
+.form_input{
+  width:300px;
+  height: 40px;
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+  border: 1px solid #c7cccc;
+  color: #52584b;
+  font-weight: bold;
+}
+.form_text{
+  width:300px;
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+  border: 1px solid #c7cccc;
+  color: #52584b;
+  font-weight: bold;
+}
+.errorP{
+  display:none;
+}
+.errorD{
+  display:none;
+}
+/* ======================FOOTER PAGE========================== */
+.footer{
+  background: url('../images/footer.jpg') no-repeat center;
+  background-position: center;
+  background-size: auto 100%;
+  background-attachment: fixed;
+}
+.ftr_hotline{
+  justify-content: center;
+}
+.footer_img{
+  width:100%;
+  height:auto;
+}
+.footerspan{
+  color:#d3dadd;
+  font-size: 13px;
+}
+.footerdata{
+  color:#d3dadd;
+  font-size: 14px;
+  text-align: center;
+}
+.footerdata a{
+  text-decoration: none;
+  color: #d3dadd;
+}
+.footerdata a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: #2e78b5;
+}
+.powered{
+  padding-top: 0;
+}
+@media only screen and (min-width:640px){
+  #web_preload{
+    width:100%;
+    height:auto;
+    margin-top: 25%;
+  }
+  .centerdiv{
+    height:auto;
+    width:100%;
+    padding: 1px;
+
+  }
+  .homepage{
+    background-size: 100% auto;
+  }
+  .about{
+    background-size: 100% auto;
+  }
+  .philosophy{
+    background-size: 100% auto;
+  }
+  .footer{
+    background-size: 100% auto;
+  }
+
+}

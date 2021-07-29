@@ -1,0 +1,106 @@
+@media only screen and (min-width:1000px){
+  .row{
+    padding:40px 5% 40px 5%;
+  }
+  #web_preload{
+    width:50%;
+    height:auto;
+    margin: 0;
+    padding: 0;
+    margin-top: 0%;
+  }
+  .centerdiv{
+    width:1000px;
+  }
+  /* ==================HOME PAGE====================== */
+  .homepage{
+    background-size: 100% auto;
+  }
+  .ul_nav{
+    float:left;
+    margin-left: -10%;
+  }
+  .logoSFSA{
+    width:60%;
+    height:auto;
+  }
+  .rowstyle{
+    margin: 0;
+    padding: 0;
+  }
+  .hideonmobile{
+    display: block;
+  }
+  .slider-img{
+    width:50%;
+    height: auto;
+  }
+
+  .article-1{
+    font-size: 20px;
+    width:50%;
+  }
+  .timediv{
+    float: left;
+  }
+  .arrowdown{
+     width: 8%;
+     margin-top:20px;
+  }
+  .bardiv{
+    display: none;
+  }
+  .srchdiv{
+    display: block;
+  }
+  /* =================SERVICES PAGE========================= */
+  .srvc_img{
+    width:100%;
+    height:auto;
+  }
+  /* ================ABOUT PAGE================================ */
+  .about{
+    background-size: 100% auto;
+  }
+  .philosophy{
+    background-size: 100% auto;
+  }
+  /* ============CLIENT=============== */
+  .cl_img{
+    width:250px;
+    height:auto;
+  }
+  /* ===============FOOTER PAGE========================================= */
+  .footer{
+    background-size: 100% auto;
+  }
+  .ftr_hotline{
+    justify-content: flex-start;
+  }
+  .footer_img{
+    width:100%;
+    height:auto;
+  }
+  .footerdata{
+    text-align: left;
+  }
+  .powered{
+    padding-top: 150px;
+  }
+
+}
+@media only screen and (min-width:900px){
+  .homepage{
+    background-size: 100% auto;
+  }
+  .about{
+    background-size: 100% auto;
+  }
+  .philosophy{
+    background-size: 100% auto;
+  }
+  .footer{
+    background-size: 100% auto;
+  }
+
+}

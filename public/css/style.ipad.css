@@ -1,0 +1,67 @@
+@media only screen and (min-width:768px){
+  #web_preload{
+    width:100%;
+    height:auto;
+    margin-top: 15%;
+  }
+  .centerdiv{
+    width:100%;
+  }
+  .homepage{
+    background-size: auto 100%;
+  }
+  .ul_nav{
+    margin-left: 10%;
+  }
+  .srvc_img{
+    width:300px;
+    height:auto;
+  }
+  .footer_img{
+    width:300px;
+    height:auto;
+  }
+  .about{
+    background-size: auto 100%;
+  }
+  .about_img{
+    width:300px;
+    height:auto;
+  }
+  .philosophy{
+    background-size: auto 100%;
+  }
+  .footer{
+    background-size: auto 100%;
+  }
+  .logoSFSA{
+    width:300px;
+    height:auto;
+  }
+  .slider-img{
+    width:350px;
+    height:auto;
+  }
+  .hideonmobile{
+    display: block;
+  }
+  .article-1{
+    font-size: 25px;
+    padding-top: 50px;
+  }
+  .arrowdown{
+     width: 80px;
+     margin-top:50px;
+     margin-bottom:50px;
+  }
+  .bardiv{
+    display: none;
+  }
+  .srchdiv{
+    display: block;
+  }
+  .cl_img{
+    width:230px;
+    height:auto;
+  }
+}
