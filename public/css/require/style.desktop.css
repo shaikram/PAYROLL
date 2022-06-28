@@ -1,0 +1,139 @@
+@media only screen and (min-width:1000px){
+  /* =======================NAVIGATION PAGE========================== */
+  .centerdiv{
+    width:1000px;
+    padding: 30px 0 30px 0;
+  }
+  #ham_bar{
+    display: none;
+  }
+  .logoSFSA{
+    width:180px;
+    margin-right: 100px;
+  }
+  .input-group{
+    justify-content: flex-end;
+  }
+  .seacrhdiv{
+    display: block;
+  }
+  .navigationdiv{
+    display: block;
+  }
+  .navigationdiv ul{
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+  .navigationdiv ul li{
+    list-style: none;
+    float: left;
+  }
+  .navigationdiv ul li a{
+    float: left;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #c7cfd5;
+  }
+  .navigationdiv ul li a:hover{
+    cursor: pointer;
+    color:#fff;
+
+    border-radius: 10px;
+  }
+  /* ===========================PAGE CONTENT======================== */
+  .qlinksul{
+    justify-content: flex-end;
+  }
+  .qlinksul li{
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px 7px 7px 0;
+    border-radius: 10px 0 0 10px;
+  }
+  .qlinksul li:hover{
+    cursor: pointer;
+    background: #cce0e4;
+  }
+
+  .qlinksul li a, .qlinksul li span{
+    text-align: right;
+    float: right;
+  }
+  .qlinks_line{
+    height:1px;
+    width:50px;
+    background: #96b1bf;
+    float: right;
+    margin-top: 5px;
+  }
+  .cnt_header{
+    font-size: 20px;
+    color:#477d99;
+    font-weight: bold;
+  }
+  .cnt_line{
+    margin-left: 10px;
+    width:50px;
+    height:1px;
+    background: #477d99;
+  }
+  .div4cnt_img{
+    width:300px;
+    height: auto;
+  }
+  .qlinks_table tr td{
+    text-align: right;
+    padding: 2px 0 2px 0;
+  }
+  .tdlinks:hover{
+    cursor: pointer;
+    background: #cce0e4;
+    border-radius: 10px 0 0 10px;
+  }
+  .nql_td:hover{
+    background: #eaf4f6;
+    cursor: auto;
+  }
+  /* ===============FOOTER PAGE========================================= */
+  .footer{
+
+  }
+  .footer_img{
+    width:100%;
+    height:auto;
+  }
+  .ftr_left{
+    justify-content: flex-start;
+
+  }
+  .footerdata{
+    text-align: left;
+  }
+  .powered{
+    padding-top: 185px;
+  }
+  /* =================GALLERY PAGE========================================= */
+  .imgFrame{
+    overflow: hidden;
+    height:180px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+  }
+  .albumImg{
+    min-width: 130%;
+    min-height: 250px;
+    max-width: 130%;
+    height:auto;
+    width:auto;
+    margin-left: -15%;
+    margin-top: -15%;
+  }
+
+}

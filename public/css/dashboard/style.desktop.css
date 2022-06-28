@@ -1,0 +1,149 @@
+@media only screen and (min-width:1000px){
+  .prof_tble{
+    display: block;
+  }
+  .profile_li{
+    display: block;
+  }
+  .profile_m{
+    display: none;
+  }
+  .content_div{
+    padding-bottom: 30%;
+  }
+  /* ================DASHBOARD========================================== */
+  .tools_div{
+    margin-bottom:30px;
+    margin-left: 30px;
+    width:130px;
+    height:130px;
+    border-radius: 3px;
+  }
+  .dash_ul li{
+    float: left;
+  }
+  .dashimg{
+    width:80%;
+    height:auto;
+  }
+  .dashboarddiv{
+    padding: 50px 0 50px 0;
+    border: 1px solid #929394;
+  }
+  /* ===============FOOTER PAGE========================================= */
+  .footer{
+
+  }
+  .footer_img{
+    width:100%;
+    height:auto;
+  }
+  .ftr_left{
+    justify-content: flex-start;
+
+  }
+  .footerdata{
+    text-align: left;
+  }
+  .powered{
+    padding-top: 185px;
+  }
+  .centerdiv{
+    width:1000px;
+  }
+  /* =========================GALLERY============================== */
+  .gfdiv{
+    padding: 10px 50px 10px 50px;
+
+  }
+  .gfrmDiv{
+    height:auto;
+    width:800px;
+    align-self: center;
+    border: 1px solid #bac1c1;
+    margin-left: 15%;
+  }
+  .gfContainer{
+    padding-left: 0%;
+  }
+  /* ====================Add Member================================ */
+  .addM_form{
+    margin-left: -15%;
+  }
+  /* =======================profile style============== */
+  .user_tble{
+    width:100%;
+    height:auto;
+    display: block;
+  }
+  .userInfoDiv{
+    padding: 0px 0 0px 0;
+    border: 1px solid #d1d4d7;
+  }
+  .p2_info{
+    margin-left: 60px;
+  }
+  .fa-edit{
+    margin-top: 5px;
+  }
+  /* ===================MEMBER LIST================================= */
+
+  .member_heads{
+    display: block;
+  }
+  .member_lists{
+    display: block;
+  }
+  .for_mobile_stat{
+    display: none;
+  }
+  .aprofile_div{
+    margin: 0;
+    padding: 0;
+    width:60%;
+    height:55px;
+    border:3px solid #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    justify-content: center;
+  }
+  .aprofile_img{
+    width:120%;
+    height:auto;
+    margin-top: -15%;
+    margin-left: -10%;
+  }
+  .apos{
+    margin-top: -7px;
+    float: left;
+  }
+  /* ============================INBOX======================= */
+  .inbNum{
+    display: block;
+  }
+  /* =========================client======================= */
+  .cphoto_div{
+    margin: 0;
+    padding: 0;
+    width:90%;
+    height:100px;
+    border:3px solid #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    justify-content: center;
+  }
+  .cprofile_img{
+    height:110%;
+    width:auto;
+    margin-top: -5%;
+    margin-left: -5%;
+  }
+  .clientProfile_div{
+    width:250px;
+    height:190px;
+  }
+  .confirmForm{
+    width: 40%;
+  }
+
+}

@@ -1,0 +1,40 @@
+@media only screen and (min-width:768px){
+  /* =======================NAVIGATION PAGE========================== */
+  .centerdiv{
+    width:100%;
+  }
+  #ham_bar{
+    display: block;
+  }
+  .logoSFSA{
+    width:200px;
+    margin-right: 20px;
+  }
+  .seacrhdiv{
+    /* display: none; */
+  }
+  .powered{
+    padding-top: 100px;
+  }
+  .ftr_left{
+    justify-content: flex-start;
+
+  }
+  .footerdata{
+    text-align: left;
+  }
+  /* =================GALLERY PAGE========================================= */
+  .imgFrame{
+    overflow: hidden;
+    height:200px;
+  }
+  .albumImg{
+    min-width: 130%;
+    min-height: 250px;
+    max-width: 130%;
+    height:auto;
+    width:auto;
+    margin-left: -15%;
+    margin-top: -15%;
+  }
+}

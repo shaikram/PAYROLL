@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+  margin: 0;
+  padding:0;
+  background: #cad4d2;
+}
+.loginForm{
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+  width:100%;
+  height:auto;
+  background: #f4f8f9;
+  padding: 5px;
+  border-radius: 5px;
+  border:1px solid #bfbfbf;
+  padding-bottom: 20px;
+}
+.row1{
+  padding: 0;
+  margin: 0;
+}
+.col1{
+  padding: 0;
+  margin: 0;
+}
+.inputs{
+  width:100%;
+  height:35px;
+  margin-top: 15px;
+  font-size: 18px;
+  color:#343933;
+  padding: 5px;
+  border:1px solid #949494;
+}
+.input-btn{
+  width:100%;
+  margin-top: 50px;
+}
+.logo{
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:640px){
+
+}

@@ -1,0 +1,110 @@
+@media only screen and (min-width:768px){
+  .profile_li{
+    display: none;
+  }
+  .profile_m{
+    display: block;
+  }
+
+  /* ================DASHBOARD========================================== */
+  .tools_div{
+    margin-bottom:10px;
+    margin-left: 40px;
+    width:180px;
+    height:180px;
+    border-radius: 3px;
+  }
+  .dash_ul li{
+    float: left;
+  }
+  .dashimg{
+    width:80%;
+    height:auto;
+  }
+  .dashboarddiv{
+    padding: 50px 0 50px 0;
+    border: 1px solid #929394;
+  }
+  /* =======================FOOTER======================================= */
+  .ftr_left{
+    justify-content: flex-start;
+
+  }
+  .footerdata{
+    text-align: left;
+  }
+  .prof_tble{
+    display: none;
+  }
+  /* =========================GALLERY==================================== */
+  .gfrmDiv{
+    border: 1px solid #bac1c1;
+  }
+  /* =======================profile style============== */
+  .user_tble{
+    width:38%;
+    height:auto;
+    display: block;
+  }
+  .userInfoDiv{
+    padding: 0px 0 0px 0;
+    border: 1px solid #d1d4d7;
+  }
+  /* ===================MEMBER LIST================================= */
+
+  .member_heads{
+    display: block;
+  }
+  .member_lists{
+    display: block;
+  }
+  .for_mobile_stat{
+    display: none;
+  }
+  .aprofile_div{
+    margin: 0;
+    padding: 0;
+    width:80%;
+    height:70px;
+    border:3px solid #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    justify-content: center;
+  }
+  .aprofile_img{
+    width:120%;
+    height:auto;
+    margin-top: -15%;
+    margin-left: -10%;
+  }
+  .apos{
+    margin-top: -7px;
+    float: left;
+  }
+  /* ============================INBOX======================= */
+  .inbNum{
+    display: block;
+  }
+  /* ========================CLIENT========================== */
+  .cphoto_div{
+    margin: 0;
+    padding: 0;
+    width:90%;
+    height:100px;
+    border:3px solid #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    justify-content: center;
+  }
+  .cprofile_img{
+    height:110%;
+    width:auto;
+    margin-top: -5%;
+    margin-left: -5%;
+  }
+  .clientProfile_div{
+    width:250px;
+    height:190px;
+  }
+  
+}
