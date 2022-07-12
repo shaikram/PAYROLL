@@ -8,7 +8,7 @@
       @endsection
       @section('content')
         @foreach ($data1 as $row)
-            @include('dashboard/cont22')
+            @include('dashboard/cont3')
             @include('dashboard/footer1')
         @endforeach
       @endsection
