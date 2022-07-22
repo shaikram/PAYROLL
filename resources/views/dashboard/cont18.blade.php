@@ -284,6 +284,7 @@ $(document).ready(function(){
         td.value = totalD;
 
         var netPay = gdp - td.value;
+        var netPay = netPay.toFixed(2);
         var npFormat = netPay.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         np.value = npFormat;
     }
